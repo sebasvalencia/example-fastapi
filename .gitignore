@@ -1,0 +1,12 @@
+__pycache__
+venv/
+.env
+other.py
+main_v1.py
+main_v2.py
+main_v3.py
+main_v4.py
+main_v5.py
+main_v6.py
+database_v1.py
+oauth2_v1.py
