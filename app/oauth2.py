@@ -33,12 +33,13 @@ def verify_access_token(token: str, credentials_exception):
         id : str =payload.get("user_id")
 
         if id is None:
-            raise credentials_exception        
+            raise credentials_exception
+        print('id is: ', id) # id should be string
         token_data = schemas.TokenData(id=id) 
     except JWTError:
         raise credentials_exception
     except AssertionError as e:
-        print(e)
+        print("errpr:", e)
     return token_data
 
 

@@ -10,3 +10,8 @@ main_v5.py
 main_v6.py
 database_v1.py
 oauth2_v1.py
+conftest_v1.py
+database_test.py
+test_calculations.py
+tests_users_v1.py
+calculations.py
